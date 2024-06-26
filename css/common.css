@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-image: url("../img/bg-pattern.png"); */
+    /*  background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; */
+}
+
+a{
+    color: var(--color-primary) ;
+    text-decoration: none;
+}
+
+a:hover{
+    color: var(--color-primary-dark);
+    text-decoration: underline;
+}
